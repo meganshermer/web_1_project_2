@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+
+body{
+  background:url("https://github.com/meganshermer/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
+   font-family: "Museo", sans-serif;
+}
+nav {
+	height: 15vh; 
+	
+	
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#left {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between; 
+	width: 40%; 
+}
+
+
+img {
+	align-self: center;
+}
+
+.social-icon {
+	width: 40px;
+	border-radius: 8px;
+}
+.link-2{
+  text-decoration: none;
+  color: grey;
+  font-family:  sans-serif;
+}
+.ribbon-1{
+  
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  background:url("https://github.com/meganshermer/web_1_project_2/blob/master/assets/pictures/steam.jpg?raw=true");
+  background-size:cover;
+  width: 100%;
+  height: 60vh;
+  border: 15px solid white;
+}
+.r-writing{
+  background-color:grey;
+  color:white;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: sans-serif;
+  
+}
+.arrow{
+  width: 10vh;
+  height: 10vh;
+
+}
+
+#left-a{
+
+ 
+}
+#right-a{
+
+}
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	justify-content: center;
+}
+
+.img {
+	width: 100%;
+}
+
+
+.button {
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	padding: 10px 30px;
+	background-color: #b5b5ad;
+	background-blend-mode: multiply;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#viewMore {
+	display: flex; 
+	justify-content: center;
+	margin: 15px;
+}
+#ribbon-2{
+  background-color:grey;
+  color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.bird{
+  width: 6vh;
+  height:4vh;
+}
+footer{
+  background:url("https://github.com/meganshermer/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  background-color: #b5b5ad;
+  background-blend-mode: multiply;
+  padding: 2vh;
+}
+#logo-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#footer{
+  display: flex;
+ 
+}
+.footer-1{
+  width: 33%;
+  padding: 5px;
+  margin: 0 auto;
+  
+  
+}
+.search{
+  width: 30px;
+  height: 30px;
+}
+.search-1{
+  background: white;
+  width: 250px;
+  color: #696969;
+}
+h3{
+  font-family: sans-serif;
+  color: #696969;
+}
+.grid-img{
+  width: 70px;
+  height: 50px;
+  padding: 1vh;
+  
+}
+.vgallery{
+  display: flex;
+  justify-content: space-between;
+}
+
+#h4{
+  text-align: center;
+  color: #696969
+}
+#p{
+  color: white;
+  font-family: ;
+  
+}
+.read{
+  color: #696969;
+}
